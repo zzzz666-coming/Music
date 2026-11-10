@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "musicbridge",
+  "version": "${version}",
+  "name": "MusicBridge",
+  "description": "Muestra en el HUD la canción que está sonando en Android mediante MusicBridge.",
+  "authors": ["MusicBridge"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.musicbridge.MusicBridgeClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
