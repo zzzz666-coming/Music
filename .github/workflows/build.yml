@@ -34,7 +34,7 @@ jobs:
           java-version: "21"
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: "9.2"
+          gradle-version: "9.8.2"
       - name: Build Fabric 1.21.11 mod
         run: gradle -p minecraft-mod build
       - uses: actions/upload-artifact@v4
